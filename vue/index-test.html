@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+    <title>ICO</title>
+    <script type="text/javascript" src="/hex_md5.js"></script>
+    <script type="text/javascript" src="/fakeBrowser.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjcpaTrXHgsjqkIR6Nyz9BXVYQmZnTaxo&amp;libraries=places&amp;callback=vueGoogleMapsInit" async="" defer=""></script>
+    <!-- webpack会将入口JS文件引入的CSS或者vue组件中的css生成style标签或者生成独立的css文件并使用Link标签加载它 -->
+  </head>
+  <body>
+      <div id="app">
+            <app></app>
+      </div>
+    <!-- webpack的HtmlWebpackPlugin插件会根据入口JS文件生成script标签并插入在这里或实现按需加载 -->
+  </body>
+</html>

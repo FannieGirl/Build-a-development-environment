@@ -1,0 +1,212 @@
+/*iphone 5,6*/
+@media (min-device-width : 320px)and (max-device-width: 375px) {
+    html{
+        background: #f8f8f8;
+        font: 14px "Helvetica Neue",Helvetica,Arial,"PingFang SC","Heiti SC",sans-serif;
+        overflow: hidden;
+    }
+}
+/*iphone6 plus 以上*/
+@media  (min-device-width : 376px)and (max-device-width: 414px) {
+    html{
+        background: #f8f8f8;
+        font: 16px "Helvetica Neue",Helvetica,Arial,"PingFang SC","Heiti SC",sans-serif;
+        overflow: hidden;
+    }
+}
+
+ul,li,div,img,body,p{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: url('~assets/img/fam_location_bg.png') no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.min{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.solgn{
+    width: 39rem;
+	height: 5rem;
+	font-family: PingFangSC-Semibold;
+	font-size: 4rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 4rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+    margin: 0 auto;
+    margin-top: 54rem;
+}
+.location{
+    width: 34rem;
+	height: 10rem;
+	font-family: PingFangSC-Semibold;
+	font-size: 2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 3rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+    margin: 0 auto;
+    margin-top: 13rem;
+    text-align: center;
+}
+.next{
+    display: block;
+}
+.next-btn{
+    width: 39rem;
+	height: 8rem;
+    font-family: PingFangSC-Semibold;
+	background-color: #ffffff;
+	box-shadow: 0rem 0rem 1rem 0rem
+		rgba(0, 0, 0, 0.2);
+	border-radius: 5rem;
+    color: #8c29bc;
+    font-size: 3rem;
+    line-height: 7.2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20rem
+}
+.locationBtn{
+    margin-top: 11rem
+}
+.imgBox{
+    width: 4rem;
+    height: 4rem;
+}
+.info-imgOne{
+    position: absolute;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    background: url('~assets/img/location_1.png') no-repeat;
+    background-size: 100%;
+    vertical-align:middle;
+}
+.info-imgTwo{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    background: url('~assets/img/location_2.png') no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align:middle;
+    position: absolute;
+}
+.info-imgThree{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    background: url('~assets/img/location_3.png') no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align:middle;
+    position: absolute;
+}
+.notified-imgOne{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    background: url('~assets/img/notifications_1.png') no-repeat;
+    background-size: 100%;
+    vertical-align:middle;
+    position: absolute;
+}
+.notified-imgTwo{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    background: url('~assets/img/notifications_2.png') no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align:middle;
+    position: absolute;
+}
+.notified-imgThree{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    background: url('~assets/img/notifications_3.png') no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align:middle;
+    position: absolute;
+}
+
+.info::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.info{
+    margin-top: 13rem;
+}
+.notified{
+    width: 35rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    font-family: PingFangSC-Semibold;
+	font-size: 2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 4rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+}
+.notifiedBtn{
+    margin-top: 12rem;
+}
+.notifiedUl{
+    margin-top:4rem;
+}
+.notifiedUl li{
+    width: 35rem;
+	height: 9rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    text-align: left;
+    position: relative;
+}
+.info li{
+    width: 35rem;
+	height: 9rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: left;
+    position: relative;
+}
+.info-text{
+	font-family: PingFangSC-Semibold;
+	font-size: 2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 4rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+    margin-left: 7rem;
+}
